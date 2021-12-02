@@ -1,0 +1,31 @@
+/* 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.tool-container{
+    height: 100px;
+    background: antiquewhite;
+}
+.drawing-container{
+    height: calc(100vh - 100px);
+
+    background:blue
+
+
+}*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+}
+
+#myCanvas {
+	cursor: crosshair;
+    position: fixed;
+}
